@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(img/honey2.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 60px;
+    background-position: bottom;
+    background-size: cover;
+    clip-path: polygon(100% 0%, 0% 0%, 0.00% 97.50%, 1.00% 97.45%, 2.00% 97.32%, 3.00% 97.09%, 4.00% 96.78%, 5.00% 96.40%, 6.00% 95.95%, 7.00% 95.45%, 8.00% 94.91%, 9.00% 94.34%, 10.00% 93.75%, 11.00% 93.16%, 12.00% 92.59%, 13.00% 92.05%, 14.00% 91.55%, 15.00% 91.10%, 16.00% 90.72%, 17.00% 90.41%, 18.00% 90.18%, 19.00% 90.05%, 20.00% 90.00%, 21.00% 90.05%, 22.00% 90.18%, 23.00% 90.41%, 24.00% 90.72%, 25.00% 91.10%, 26.00% 91.55%, 27.00% 92.05%, 28.00% 92.59%, 29.00% 93.16%, 30.00% 93.75%, 31.00% 94.34%, 32.00% 94.91%, 33.00% 95.45%, 34.00% 95.95%, 35.00% 96.40%, 36.00% 96.78%, 37.00% 97.09%, 38.00% 97.32%, 39.00% 97.45%, 40.00% 97.50%, 41.00% 97.45%, 42.00% 97.32%, 43.00% 97.09%, 44.00% 96.78%, 45.00% 96.40%, 46.00% 95.95%, 47.00% 95.45%, 48.00% 94.91%, 49.00% 94.34%, 50.00% 93.75%, 51.00% 93.16%, 52.00% 92.59%, 53.00% 92.05%, 54.00% 91.55%, 55.00% 91.10%, 56.00% 90.72%, 57.00% 90.41%, 58.00% 90.18%, 59.00% 90.05%, 60.00% 90.00%, 61.00% 90.05%, 62.00% 90.18%, 63.00% 90.41%, 64.00% 90.72%, 65.00% 91.10%, 66.00% 91.55%, 67.00% 92.05%, 68.00% 92.59%, 69.00% 93.16%, 70.00% 93.75%, 71.00% 94.34%, 72.00% 94.91%, 73.00% 95.45%, 74.00% 95.95%, 75.00% 96.40%, 76.00% 96.78%, 77.00% 97.09%, 78.00% 97.32%, 79.00% 97.45%, 80.00% 97.50%, 81.00% 97.45%, 82.00% 97.32%, 83.00% 97.09%, 84.00% 96.78%, 85.00% 96.40%, 86.00% 95.95%, 87.00% 95.45%, 88.00% 94.91%, 89.00% 94.34%, 90.00% 93.75%, 91.00% 93.16%, 92.00% 92.59%, 93.00% 92.05%, 94.00% 91.55%, 95.00% 91.10%, 96.00% 90.72%, 97.00% 90.41%, 98.00% 90.18%, 99.00% 90.05%, 100.00% 90.00%);
+}
+
+#img1 {
+    width: 100%;
+    position: absolute;
+    top: -40vh;
+    z-index: -1;
+}
+
+#med {
+    position: relative;
+}
+
+#img4 {
+    position: absolute;
+    top: -20vh;
+    right: 60vh;
+    z-index: 1;
+    width: 20%;
+}
+
+#t1 {
+    padding-top: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Freehand', cursive;
+}
+
+#header {
+    color: orange;
+}
+
+#text1 {
+    margin-top: 5vh;
+    font-size: 20px;
+    width: 50vw;
+}
+
+#button {
+    background-color: unset;
+    width: 150px;
+    height: 175px;
+    margin-top: 2vw;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url(img/bee.png);
+    background-size: 150px 100px;
+    border: none;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(img/bubble.jpg);
+}
+
+#all_products {
+    justify-content: center;
+    display: flex;
+    gap: 35px;
+}
+
+.wrapper_border {
+    background: rgb(255, 234, 0);
+    padding: 3px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.wrapper {
+    background: white;
+    padding: 10px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.products {
+    outline: 5px solid blue;
+    height: 250px;
+    width: 300px;
+    position: relative;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+.products>p {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.products>h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+#honey {
+    background: url(img/soty.jpg);
+    background-size: cover;
+}
+
+#tea {
+    background: url(img/green.jpg);
+    background-size: cover;
+}
+
+#rice {
+    background: url(img/green.jpg);
+    background-size: cover;
+}
+
+#spicies {
+    background: url(img/spicieswebp.png);
+    background-size: cover;
+}
+
+.product_img {
+    position: absolute;
+    height: 70%;
+    bottom: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.products_position {
+    position: relative;
+}
+
+.krapka {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 15px;
+    background: url(img/bee.png);
+    height: 200px;
+    background-size: 175px 115px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    align-items: center;
+
+}
+
+.krapki {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    background-color: white;
+    height: 10px;
+    width: 10px;
+}
+
+.new_krapka {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+.new_krapki {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    background-color: transparent;
+    height: 10px;
+    width: 10px;
+}
+
+.transparent_strike {
+    background: transparent;
+    padding: 3px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.new_gray_strike {
+    background: radial-gradient(circle, rgba(255, 255, 255, 0) 50%, rgba(128, 128, 128, 1) 50%);
+    padding: 3px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.white_strike {
+    background: white;
+    padding: 3px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.activate {
+    background: yellow;
+}
+
+#one {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/loska.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 15%;
+    clip-path: polygon(100% 100%, 0% 100%, 0.00% 20.50%, 2.00% 20.03%, 4.00% 18.65%, 6.00% 16.50%, 8.00% 13.80%, 10.00% 10.80%, 12.00% 7.80%, 14.00% 5.10%, 16.00% 2.95%, 18.00% 1.57%, 20.00% 1.10%, 22.00% 1.57%, 24.00% 2.95%, 26.00% 5.10%, 28.00% 7.80%, 30.00% 10.80%, 32.00% 13.80%, 34.00% 16.50%, 36.00% 18.65%, 38.00% 20.03%, 40.00% 20.50%, 42.00% 20.03%, 44.00% 18.65%, 46.00% 16.50%, 48.00% 13.80%, 50.00% 10.80%, 52.00% 7.80%, 54.00% 5.10%, 56.00% 2.95%, 58.00% 1.57%, 60.00% 1.10%, 62.00% 1.57%, 64.00% 2.95%, 66.00% 5.10%, 68.00% 7.80%, 70.00% 10.80%, 72.00% 13.80%, 74.00% 16.50%, 76.00% 18.65%, 78.00% 20.03%, 80.00% 20.50%, 82.00% 20.03%, 84.00% 18.65%, 86.00% 16.50%, 88.00% 13.80%, 90.00% 10.80%, 92.00% 7.80%, 94.00% 5.10%, 96.00% 2.95%, 98.00% 1.57%, 100.00% 1.10%);
+}
+
+#two {
+    display: flex;
+}
+
+#wave {
+    background: black;
+    height: 255px;
+    clip-path: polygon(100% 100%, 0% 100%, 0.00% 98.81%, 2.00% 97.85%, 4.00% 95.04%, 6.00% 90.67%, 8.00% 85.16%, 10.00% 79.05%, 12.00% 72.94%, 14.00% 67.44%, 16.00% 63.06%, 18.00% 60.26%, 20.00% 59.29%, 22.00% 60.26%, 24.00% 63.06%, 26.00% 67.44%, 28.00% 72.94%, 30.00% 79.05%, 32.00% 85.16%, 34.00% 90.67%, 36.00% 95.04%, 38.00% 97.85%, 40.00% 98.81%, 42.00% 97.85%, 44.00% 95.04%, 46.00% 90.67%, 48.00% 85.16%, 50.00% 79.05%, 52.00% 72.94%, 54.00% 67.44%, 56.00% 63.06%, 58.00% 60.26%, 60.00% 59.29%, 62.00% 60.26%, 64.00% 63.06%, 66.00% 67.44%, 68.00% 72.94%, 70.00% 79.05%, 72.00% 85.16%, 74.00% 90.67%, 76.00% 95.04%, 78.00% 97.85%, 80.00% 98.81%, 82.00% 97.85%, 84.00% 95.04%, 86.00% 90.67%, 88.00% 85.16%, 90.00% 79.05%, 92.00% 72.94%, 94.00% 67.44%, 96.00% 63.06%, 98.00% 60.26%, 100.00% 59.29%);
+}
+
+.seiling>h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.seiling>p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.seiling {
+    width: 90%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column
+}
+
+.item {
+    width: 50%;
+}
+
+.img_text {
+    display: flex;
+}
+
+.img_text img {
+    width: 90%;
+}
+
+#first {
+    width: 70%;
+    padding: 10% 15%;
+    box-sizing: border-box;
+}
+
+#last {
+    width: 90%;
+}
+
+.style_button {
+    appearance: none;
+    background: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-appearance: none;
+    border: none;
+    font-size: 20px;
+    border-bottom: 2px dashed yellow;
+}
+
+#top_footer {
+    display: flex;
+}
+/* ::-webkit-scrollbar-button{
+    background-color: red;
+} */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(17, 17, 14, 0.3); 
+    border-radius: 10px;
+    background: rgb(182, 180, 54);
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(155, 58, 58, 0.5); 
+}
+#top_footer{
+    display: flex;
+    color: rgb(255, 234, 0);
+    font-size: 25px;
+    justify-content: space-around;
+}
+.info{
+    margin-left: 10px;
+    font-style: italic;
+}
+    .networks{
+       font-size: 35px;
+        border: 1px solid white;
+        padding: 15px;
+        border-radius: 50%;
+        margin-bottom: 40px;
+    }
+     #social_net{
+        margin-top: 30px;
+        margin-bottom:30px;
+    } 
+    #end{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    #end_text{
+        color: gray;
+        font-family:Arial, Helvetica, sans-serif ;
+        font-size: 25px;
+    }
+    
+        #style_button{
+            position: fixed;
+            bottom:20px;
+            right: 20px;
+            z-index:1000;
+        }
+        #style{
+            background: none;
+            font-size: 20px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: yellow;
+            border: 0;
+        }
+        #img_bee{
+            width:150px;
+            transform: rotate(-90deg);
+        }
+        #style_button2{
+            padding:25px 0;
+            font-size: 30px;
+            border-radius:50%;
+            width: 50%;
+            margin: 0 auto;
+            border: 2px solid white ;
+        }
+    
+a {
+    color: black;
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    background-color: white;
+    width: 700px;
+    height: 50px;
+    border-radius: 100px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
